@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Pages - What Can It Do?</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; color: #fff; }
+    .container { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
+    h1 { font-size: 3rem; margin-bottom: 10px; text-align: center; }
+    .subtitle { text-align: center; color: #aaa; font-size: 1.2rem; margin-bottom: 50px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: rgba(255,255,255,0.1); border-radius: 16px; padding: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card-icon { font-size: 2.5rem; margin-bottom: 15px; }
+    .card h3 { font-size: 1.3rem; margin-bottom: 10px; color: #4dabf7; }
+    .card p { color: #ccc; line-height: 1.6; }
+    .features { margin-top: 50px; }
+    .features h2 { text-align: center; margin-bottom: 30px; font-size: 2rem; }
+    .feature-list { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 30px; }
+    .feature-item { display: flex; align-items: center; margin-bottom: 15px; font-size: 1.1rem; }
+    .feature-item::before { content: '鉁?; color: #4dabf7; margin-right: 15px; font-weight: bold; }
+    .cta { text-align: center; margin-top: 50px; }
+    .cta a { display: inline-block; background: #4dabf7; color: #fff; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+    .cta a:hover { background: #339af0; }
+    footer { text-align: center; margin-top: 60px; color: #666; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>馃殌 GitHub Pages</h1>
+    <p class="subtitle">Free static site hosting directly from your GitHub repository</p>
+    
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">馃搫</div>
+        <h3>Static Websites</h3>
+        <p>Host any static HTML, CSS, and JavaScript website. Perfect for portfolios, blogs, and documentation.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">馃帹</div>
+        <h3>Jekyll Support</h3>
+        <p>Built-in Jekyll support lets you transform plain text into static sites. Use themes and templates easily.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">馃寪</div>
+        <h3>Custom Domains</h3>
+        <p>Use your own domain name. Get free SSL via Let's Encrypt automatically.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">鈿?/div>
+        <h3>Free HTTPS</h3>
+        <p>Every GitHub Pages site gets free HTTPS. Your site is secure out of the box.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">馃摎</div>
+        <h3>Documentation</h3>
+        <p>Host project docs, API documentation, or wikis. Keep everything in your repo.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">馃幆</div>
+        <h3>CI/CD Integration</h3>
+        <p>Automatic builds and deployments on every push. Just commit and your site updates.</p>
+      </div>
+    </div>
+    
+    <div class="features">
+      <h2>鉁?Key Features</h2>
+      <div class="feature-list">
+        <div class="feature-item">100GB bandwidth per month</div>
+        <div class="feature-item">500 build minutes per month</div>
+        <div class="feature-item">Unlimited private repositories</div>
+        <div class="feature-item">Custom 404 pages</div>
+        <div class="feature-item">Force HTTPS option</div>
+        <div class="feature-item">Branch/tag deployment</div>
+      </div>
+    </div>
+    
+    <div class="cta">
+      <a href="https://pages.github.com" target="_blank">Get Started 鈫?/a>
+    </div>
+    
+    <footer>
+      <p>Hosted on GitHub Pages 鈥?Repository: LZW361/to-do-list</p>
+    </footer>
+  </div>
+</body>
+</html>
