@@ -1,10 +1,20 @@
-# To Do List
+# 👋 Welcome to My Personal Portfolio
 
-A simple To Do List application built with Python.
+## About Me
 
-## Features
-- Schedule management
-- Habits tracking
+Hi! I'm **LZW361**. I'm a [Your Title/Role] based in [Your Location].
 
-## Usage
-Run python app.py to start the application.
+### 🔧 Skills
+
+- **Programming**: Python, JavaScript, ...
+- **Tools**: Git, Docker, ...
+- **Languages**: English, Chinese, ...
+
+### 📫 Contact
+
+- Email: your.email@example.com
+- GitHub: [LZW361](https://github.com/LZW361)
+
+---
+
+*This README is a template. Feel free to edit it to introduce yourself!*
